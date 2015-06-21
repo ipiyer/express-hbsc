@@ -97,7 +97,7 @@ function HBarsC(app, Handlebars) {
         }
     }
 
-    if (process.env.NODE_ENV === "production") {
+    if (process.env.NODE_ENV != "development") {
         compile().then(function() {
             console.log("Handlebar templates cached successfully");
         });
