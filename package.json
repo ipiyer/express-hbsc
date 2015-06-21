@@ -1,0 +1,23 @@
+{
+  "name": "express-hbs",
+  "version": "1.0.0",
+  "description": "Express handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:munichlinux/express-hbs.git"
+  },
+  "keywords": [
+    "expressjs",
+    "handlebars"
+  ],
+  "author": "Prashanth <munichlinux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/munichlinux/express-hbs/issues"
+  },
+  "homepage": "https://github.com/munichlinux/express-hbs"
+}
