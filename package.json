@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/munichlinux/express-hbs/issues"
   },
-  "homepage": "https://github.com/munichlinux/express-hbs"
+  "homepage": "https://github.com/munichlinux/express-hbs",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "handlebars-helpers": "^0.5.8",
+    "q": "^1.4.1",
+    "underscore": "^1.8.3"
+  }
 }
