@@ -47,9 +47,10 @@ function HBarsC(app, Handlebars) {
     var viewPath = app.get("views");
 
     var partials, cache = {};
-
-    Handlebars = require("handlebars-helpers")(Handlebars);
-
+    var helpers = require("handlebars-helpers");
+    Handlebars = helpers.register(Handlebars);
+    
+    console.log(Handlebars);
     function findHbsFiles() {
         var deferred = Q.defer();
         walk(viewPath, /\.hbs$/, function(err, res) {
