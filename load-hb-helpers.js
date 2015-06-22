@@ -15,19 +15,16 @@ module.exports = function(Handlebars) {
 
   var helpers = path.join.bind(null, __dirname, 'node_modules', "handlebars-helpers", "lib", "helpers");
 
-  var localHelpers = _.without(fs.readdirSync(helpers()), "helpers.js", 'helpers-markdown.js', "helpers-code");
+  var localHelpers = _.without(fs.readdirSync(helpers()), "helpers.js", 'helpers-markdown.js', "helpers-code.js");
 
   localHelpers = localHelpers.map(function(helper) {
     return path.join(helpers(), helper);
   });
 
-  console.log(localHelpers);
 
   localHelpers.map(function(helper) {
     require(helper).register(Handlebars);
   });
-
-  console.log(Handlebars);
 
   return Handlebars;
 }

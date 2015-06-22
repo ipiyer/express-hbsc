@@ -1,6 +1,6 @@
 {
   "name": "express-hbsc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Express handlebars",
   "main": "index.js",
   "scripts": {
@@ -21,13 +21,14 @@
   },
   "homepage": "https://github.com/munichlinux/express-hbs",
   "dependencies": {
-    "handlebars": "^3.0.3",
+  "handlebars": "^3.0.3",
     "handlebars-helpers": "^0.5.8",
     "q": "^1.4.1",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
+    "grunt": "^0.4.5",
     "jasmine": "^2.3.1"
   }
 }
