@@ -1,6 +1,7 @@
 # ExpressJS Handlebar Middleware
 This is a middleware for ExpressJS. It has inbuild [handlebar helpers] (https://github.com/assemble/handlebars-helpers). Some of the noteable features are layout, partials, comparisons.
 
+
 ## Install 
 
 ```bash
