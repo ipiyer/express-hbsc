@@ -1,6 +1,6 @@
 {
   "name": "express-hbsc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Express handlebars",
   "main": "index.js",
   "scripts": {
