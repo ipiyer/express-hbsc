@@ -8,8 +8,6 @@
     "test": "test"
   },
   "dependencies": {
-    "express": "^4.13.4",
-    "handlebars": "^4.0.5",
     "handlebars-helpers": "^0.5.8",
     "q": "^1.4.1",
     "underscore": "^1.8.3"
