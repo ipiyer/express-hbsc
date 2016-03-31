@@ -1,6 +1,6 @@
 {
   "name": "express-hbsc",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "express handlebars",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,6 @@
     "test": "test"
   },
   "dependencies": {
-    "handlebars-helpers": "^0.5.8",
     "q": "^1.4.1",
     "underscore": "^1.8.3"
   },
