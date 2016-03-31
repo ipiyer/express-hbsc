@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:munichlinux/express-hbs.git"
+    "url": "git@github.com:munichlinux/express-hbsc.git"
   },
   "keywords": [
     "expressjs",
@@ -17,9 +17,9 @@
   "author": "Prashanth <munichlinux@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/munichlinux/express-hbs/issues"
+    "url": "https://github.com/munichlinux/express-hbsc/issues"
   },
-  "homepage": "https://github.com/munichlinux/express-hbs",
+  "homepage": "https://github.com/munichlinux/express-hbsc",
   "dependencies": {
     "express": "^4.13.4",
     "handlebars": "^4.0.5",
