@@ -1,6 +1,6 @@
 {
   "name": "express-hbsc",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "express handlebars",
   "main": "index.js",
   "directories": {
@@ -32,9 +32,6 @@
   "scripts": {
     "test": "mocha -R spec"
   },
-  "files": [
-    "index.js"
-  ],
   "author": "Prashanth Iyer <munichlinux@gmail.com>",
   "license": "MIT",
   "bugs": {
