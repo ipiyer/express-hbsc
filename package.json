@@ -1,6 +1,6 @@
 {
   "name": "express-hbsc",
-  "version": "1.5.5",
+  "version": "1.5.7",
   "description": "express handlebars",
   "main": "index.js",
   "directories": {
@@ -18,7 +18,7 @@
     "matchdep": "^1.0.1",
     "matchkeys": "^0.2.2",
     "minimatch": "^3.0.0",
-    "nap": "^0.8.1",
+    "nap": "~0.7.11",
     "q": "^1.4.1",
     "sort-object": "^3.0.2",
     "to": "^0.2.9",
