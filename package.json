@@ -1,6 +1,6 @@
 {
   "name": "express-hbsc",
-  "version": "1.5.8",
+  "version": "2.0.0",
   "description": "express handlebars",
   "main": "index.js",
   "directories": {
@@ -8,38 +8,25 @@
     "test": "test"
   },
   "dependencies": {
-    "grunt": "^0.4.5",
-    "handlebars": "^4.0.5",
-    "highlight.js": "^9.3.0",
-    "iconv-lite": "^0.4.13",
-    "js-yaml": "^3.6.0",
-    "lodash": "^4.11.2",
-    "marked": "^0.3.5",
-    "matchdep": "^1.0.1",
-    "matchkeys": "^0.2.2",
-    "minimatch": "^3.0.0",
-    "nap": "~0.7.11",
-    "q": "^1.4.1",
-    "sort-object": "^3.0.2",
-    "to": "^0.2.9",
-    "underscore": "^1.8.3"
+    "handlebars": "^4.0.11",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-layouts": "^3.1.4"
   },
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "express": "^4.13.0",
-    "grunt": "^0.4.5",
-    "jasmine": "^2.3.1"
+    "chai": "^4.1.2",
+    "express": "~4.14.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/munichlinux/express-hbsc.git"
+    "url": "git@github.com:ipiyer/express-hbsc.git"
   },
   "keywords": [
-    "expressjs",
-    "handlebars"
+    "expressjs-handlebars",
+    "handlebar helpers",
+    "template inheritance"
   ],
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "mocha -R spec"
@@ -47,7 +34,7 @@
   "author": "Prashanth Iyer <munichlinux@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/munichlinux/express-hbsc/issues"
+    "url": "https://github.com/ipiyer/express-hbsc"
   },
-  "homepage": "https://github.com/munichlinux/express-hbsc#readme"
+  "homepage": "https://github.com/ipiyer/express-hbsc#readme"
 }
