@@ -7,6 +7,12 @@
     "example": "examples",
     "test": "test"
   },
+  "files": [
+    "index.js",
+    "register_helpers.js",
+    "package.json",
+    "package-lock.json"
+  ],
   "dependencies": {
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4"
@@ -29,7 +35,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "./node_modules/.bin/mocha *.spec.js"
   },
   "author": "Prashanth Iyer <munichlinux@gmail.com>",
   "license": "MIT",
