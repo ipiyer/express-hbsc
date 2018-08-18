@@ -1,10 +1,10 @@
 const helpers = require('handlebars-helpers');
 const layouts = require('handlebars-layouts');
 
-module.exports = handlebar => {
-  Handlebars.registerHelper(layouts(handlebars));
+module.exports = Handlebars => {
+  Handlebars = Handlebars.registerHelper(layouts(Handlebars));
   helpers({
-    handlebars,
+    Handlebars,
   });
-  return handlebar;
+  return Handlebars;
 };
